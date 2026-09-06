@@ -9,7 +9,7 @@ public class QuickSort implements Sort {
         quickSort(array,0,array.length-1);
     }
     public void quickSort(int[]array,int low,int high){
-        if (low>=high) return;
+        if (low>=high || array==null || array.length==0) return;
         int pi = partition(array,low,high);
         quickSort(array,low,pi-1);
         quickSort(array,pi+1,high);
