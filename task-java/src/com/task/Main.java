@@ -2,10 +2,7 @@ package com.task;
 
 import com.task.common.ListNode;
 import com.task.common.TreeNode;
-import com.task.leetcode._102;
-import com.task.leetcode._23;
-import com.task.leetcode._25;
-import com.task.leetcode._42;
+import com.task.leetcode.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -44,6 +41,7 @@ public class Main {
 //        System.out.println(new _102().levelOrder(root));
 //        System.out.println(new _42().trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1}));
 //        System.out.println(new _25().reverseKGroup(ListNode.build(new int[]{1,2,3,4,5,6,7,8}), 3));
-        System.out.println(new _23().mergeKLists(new ListNode[]{ListNode.build(new int[]{1,4,5}),ListNode.build(new int[]{1,3,4}),ListNode.build(new int[]{2,6})}));
+        //System.out.println(new _23().mergeKLists(new ListNode[]{ListNode.build(new int[]{1,4,5}),ListNode.build(new int[]{1,3,4}),ListNode.build(new int[]{2,6})}));
+        System.out.println(new _416().canPartition(new int[]{1,5,11,5}));
     }
 }
